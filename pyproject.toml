@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "financial-data-platform"
+version = "0.1.0"
+description = "A stock Buy/Sell recommendation engine built on a data-management pipeline: acquisition, validation, relational modeling, and statistical data-quality scoring."
+requires-python = ">=3.10"
+dependencies = [
+    "sqlalchemy>=2.0,<3",
+    "pydantic>=2.0,<3",
+    "yfinance>=0.2,<0.3",
+    "pandas>=2.0,<3",
+    "numpy>=1.24,<3",
+    "fastapi>=0.110,<1",
+    "uvicorn[standard]>=0.29,<1",
+    "click>=8.1,<9",
+    "httpx>=0.27,<1",
+    "python-dateutil>=2.8,<3",
+]
+
+[project.scripts]
+fdp = "fdp.main:cli"
+
+[tool.setuptools.packages.find]
+include = ["fdp*"]

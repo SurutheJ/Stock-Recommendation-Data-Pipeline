@@ -1,0 +1,38 @@
+[
+  {
+    "period_end_date": "2021-12-31",
+    "period_type": "FY",
+    "fiscal_year": 2021,
+    "revenue": 500.0,
+    "net_income": 10.0,
+    "eps_diluted": 0.5,
+    "operating_income": 15.0
+  },
+  {
+    "period_end_date": "2022-12-31",
+    "period_type": "FY",
+    "fiscal_year": 2022,
+    "revenue": 480.0,
+    "net_income": -5.0,
+    "eps_diluted": null,
+    "operating_income": 2.0
+  },
+  {
+    "period_end_date": "2023-12-31",
+    "period_type": "FY",
+    "fiscal_year": 2023,
+    "revenue": null,
+    "net_income": -40.0,
+    "eps_diluted": -1.1,
+    "operating_income": -30.0
+  },
+  {
+    "period_end_date": "2024-12-31",
+    "period_type": "FY",
+    "fiscal_year": 2024,
+    "revenue": 410.0,
+    "net_income": -60.0,
+    "eps_diluted": -1.6,
+    "operating_income": -45.0
+  }
+]

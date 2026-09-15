@@ -1,0 +1,30 @@
+[
+  {
+    "period_end_date": "2022-09-30",
+    "period_type": "FY",
+    "fiscal_year": 2022,
+    "operating_cash_flow": 105000.0,
+    "capital_expenditures": 11000.0
+  },
+  {
+    "period_end_date": "2023-09-30",
+    "period_type": "FY",
+    "fiscal_year": 2023,
+    "operating_cash_flow": 110250.0,
+    "capital_expenditures": 11550.0
+  },
+  {
+    "period_end_date": "2024-09-30",
+    "period_type": "FY",
+    "fiscal_year": 2024,
+    "operating_cash_flow": 115762.5,
+    "capital_expenditures": 12127.5
+  },
+  {
+    "period_end_date": "2025-09-30",
+    "period_type": "FY",
+    "fiscal_year": 2025,
+    "operating_cash_flow": 121550.6,
+    "capital_expenditures": 12733.9
+  }
+]
